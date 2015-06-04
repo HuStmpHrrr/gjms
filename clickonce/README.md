@@ -20,7 +20,9 @@ It basically builds and publishes ClickOnce app to specified positions.
 
 This script is interactive, but first of all, env's need to be set up.
 
-`target_shares` is in big focus:
+You need to have a file contains the application version first. By default, it's `AppVer` in current folder. But it's free to change as long as consistent with `appver_file` variable.
+
+Then, `target_shares` is in big focus:
 
 ```python
 target_shares = {
