@@ -1,8 +1,8 @@
 # [ClickOnce](http://en.wikipedia.org/wiki/ClickOnce)
 
-ClickOnce is a fairly old technology that ships with .Net 2.0. It basically installed application in a few clicks, and is shipped with some versioning control on clients' side, as well as some security stuff I don't care of.
+ClickOnce is a fairly old technology that ships with .Net 2.0. It basically installs application in a few clicks, and is shipped with some versioning control on clients' side, as well as some security stuff I don't care of.
 
-As we know, MS has no good application pulishment mechanism at all, which means you have to deal with installer. So either an installer has to contain all the dependencies in one pack, as 99% of them in the market, or you as a client has to deal with dependencies alone, which I met once or twice in my life. And both of them are bad, too old, back in 70s.
+As we know, MS has no good application pulishment mechanism at all, which means you have to deal with installer. So either an installer has to contain all the dependencies in one pack, as 99% of them in the market, or you as a client have to deal with dependencies alone, which I met once or twice in my life. And both of them are bad, too old, back in 70s.
 
 So why ClickOnce doesn't become the main stream of app publishment in MS ecosystem? Well, from my stand point, there are two reasons:
 
