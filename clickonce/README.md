@@ -18,6 +18,8 @@ It basically builds and publishes ClickOnce app to specified positions.
 
 ## HOWTO? 
 
+This script is interactive, but first of all, env's need to be set up.
+
 `target_shares` is in big focus:
 
 ```python
@@ -39,6 +41,8 @@ target_shares = {
 ```
 
 Now I've added `C:\release` to one of my release target folders.
+
+Then double click the file to run it.
 
 ### Extra
 
