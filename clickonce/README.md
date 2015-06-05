@@ -38,11 +38,16 @@ Example:
 
 ```python
 target_shares = {
-    'release': [r'C:\release']
+    'release': [
+                r'C:\release',
+                (r'D:\release', 'http://some.url.me/update')
+                ]
     }
 ```
 
-Now I've added `C:\release` to one of my release target folders.
+Now I've added `C:\release` and `D:\release` to one of my release target folders, and `http://some.url.me/update` is specified to be the update url of given release. If no update url is specified, it will be the same as target folder.
+
+One subtle part of this, is current mssbuild I am using, just do a simple string concat to the path, so I will have to try to make the path to be ended with `\`. However, I didn't do it with the second case, since update url could be a url, not a filepath.
 
 Then double click the file to run it.
 
